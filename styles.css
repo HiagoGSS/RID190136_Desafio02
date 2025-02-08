@@ -1,0 +1,1025 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: 93rem;
+    display: flex;
+}
+
+.green {
+    background-color: #02A28F;
+    color: white;
+}
+
+.texto-green {
+    color: #02A28F;
+}
+
+.texto-gray {
+    color: #616161;
+}
+
+#navbar h1 {
+    margin: 0;
+}
+
+#navbar {
+    width: 90rem;
+    height: 4.375rem;
+    font-size: 2.25rem;
+    padding: 1rem 9.75rem 1rem 9.75rem;
+}
+
+#lado-esquerdo-blog {
+    padding-left: 9.75rem;
+    margin: 4rem 0 4rem 0;
+}
+
+#lado-direito-blog {
+    width: 22.5rem;
+    padding-left: 2rem;
+    margin: 4.2rem 0 4rem 0;
+}
+
+#texto-artigo-principal > h1, #texto-artigo-principal > p {
+    margin: 0.2rem;
+}
+
+#texto-artigo-principal > h1 {
+    font-size: 2.0rem;
+}
+
+#artigo-principal {
+    width: 46.5rem;
+    height: 24.75rem;
+    border: 0,0625rem solid black;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(./Assets/Cidade\ à\ noite.jpeg);
+    background-size: 100%;
+}
+
+#texto-artigo-principal {
+    padding-left: 1.5rem;
+    color: white;
+    position: relative;
+    top: 72%;
+}
+
+#posts-recentes {
+    width: 46.5rem;
+    height: 52rem;
+    padding-top: 1rem;
+}
+
+#titulo-posts-recentes > h2, #titulo-posts-recentes > p {
+    margin: 0;
+}
+
+#titulo-posts-recentes > h2 {
+    font-size: 1.25rem;
+}
+
+#titulo-posts-recentes > p {
+    font-size: 0.875rem;
+    padding-right: 1.5rem;
+}
+
+#titulo-posts-recentes {
+    width: 13,125rem;
+    height: 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0,0625rem solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cards-posts-recentes {
+    width: 46.5rem;
+    height: 51rem;
+    margin-top: 0.625rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1.25rem;
+}
+
+.img-cards-recentes {
+    width: 22.5rem;
+    height: 11.875rem;
+}
+
+.cards-recentes {
+    width: 22.5rem;
+    height: 26.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.250rem rgba(0, 0, 0, 0.1);
+}
+
+.texto-cards-recentes > h2 {
+    font-size: 1.25rem;
+}
+
+.texto-cards-recentes > p {
+    font-size: 0.875rem;
+}
+
+.texto-cards-recentes {
+    padding: 0 1.5rem;
+    width: 22.5rem;
+    height: 12,875rem;
+}
+
+#imagem-celular {
+    background-image: url(./Assets/Um\ smartphone.svg);
+    background-size: cover;
+}
+
+#gravacao-video {
+    background-image: url(./Assets/Pessoa\ gravando\ um\ vídeo.svg);
+    background-size: cover;
+}
+
+#mostrando-codigo {
+    background-image: url(./Assets/Tela\ de\ laptop\ mostrando\ código.svg);
+    background-size: cover;
+}
+
+#config-monitores {
+    background-image: url(./Assets/Configuração\ de\ dois\ monitores.svg);
+    background-size: cover;
+}
+
+#posts-populares {
+    height: 24.75rem;
+}
+
+#titulo-posts-populares > h2 {
+    margin-top: -0.3rem;
+    font-size: 1.25rem;
+}
+
+#titulo-posts-populares {
+    width: 100%;
+    height: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0,0625rem solid black;
+}
+
+#cards-posts-populares {
+    width: 25.5rem;
+    height: 6rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.250rem rgba(0, 0, 0, 0.1);
+    margin-top: 1.25rem;
+}
+
+#cards-populares {
+    display: flex;
+}
+
+.texto-cards-populares > h2 {
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.texto-cards-populares > p {
+    color: #616161;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.texto-cards-populares {
+    padding-top: 1rem;
+}
+
+.img-cards-populares {
+    padding: 1rem;
+}
+
+#categorias {
+    height: 11.5rem;
+    padding-top: 1rem;
+}
+
+#titulo-categorias > h2 {
+    margin-top: -0.3rem;
+    font-size: 1.25rem;
+}
+
+#titulo-categorias {
+    width: 100%;
+    height: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0,0625rem solid black;
+}
+
+.linhas-categorias > p {
+    margin: 0;
+}
+
+.linhas-categorias {
+    width: 25.5rem;
+    color: #616161;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 9.75rem 1rem 9.75rem;
+}
+
+@media only screen and (max-width: 374px) {
+    main {
+        display:inline;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 4.375rem;
+        font-size: 1rem;
+        padding: 0;
+        align-content: center;
+        justify-items: center;
+    }
+
+    #lado-esquerdo-blog {
+        padding-left: 0;
+        margin: 0;
+        justify-items: center;
+    }
+    
+    #lado-direito-blog {
+        padding-left: 0;
+        margin: 3rem 0;
+        justify-items: center;
+    }
+
+    #artigo-principal {
+        width: 18rem;
+        margin: 2rem 1rem 2rem 1rem;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(./Assets/Cidade\ à\ noite.jpeg);
+    }
+
+    #texto-artigo-principal > h1 {
+        font-size: 1.5rem;
+    }
+
+    #texto-artigo-principal {
+        top: 68%;
+    }
+
+    #posts-recentes {
+        width: 18rem;
+        height: 107rem;
+        padding: 0;
+        margin: 0rem 1rem 2rem 1rem;
+    }
+    
+    #titulo-posts-recentes-h2 {
+        font-size: 0.6rem;
+        justify-content: flex-start;
+    }
+    
+    #titulo-posts-recentes-p {
+        font-size: 0.6rem;
+        justify-content: flex-end;
+    }
+    
+    #titulo-posts-recentes {
+        width: 15rem;
+        height: 1.5rem;
+        align-items: center;
+    }
+
+    #cards-posts-recentes {
+        width: 18rem;
+        height: 103.5rem;
+        margin-top: 1.5rem;
+        display: block;
+        gap: 0;
+    }
+    
+    .img-cards-recentes {
+        width: 18rem;
+        height: 11.75rem;
+        background-repeat: none;
+        background-size: cover
+    }
+    
+    .cards-recentes {
+        width: 18rem;
+        height: 24.75rem;
+        margin-top: 1.5rem;
+    }
+    
+    .texto-cards-recentes > h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .texto-cards-recentes > p {
+        font-size: 0.74rem;
+        margin: 0.5rem 0;
+    }
+    
+    .texto-cards-recentes {
+        padding: 0 1.5rem;
+        width: 16rem;
+        height: 12,875rem;
+    }
+
+    #posts-populares {
+        width: 22.5rem;
+    }
+    
+    #titulo-posts-populares {
+        width: 15rem;
+        height: 1rem;
+        justify-items: center;
+        margin-left: 1rem;
+    }
+    
+    #cards-posts-populares {
+        width: 18rem;
+        height: 6rem;
+        margin-top: 1.25rem;
+        margin-left: 1rem;
+    }
+    
+    .texto-cards-populares > h2 {
+        font-size: 0.75rem;
+    }
+    
+    .texto-cards-populares > p {
+        font-size: 0.5rem;
+    }
+
+    .img-cards-populares > img {
+        width: 6rem;
+        height: 5rem;
+    }
+    
+    .img-cards-populares {
+        padding: 0.3rem 1rem;
+    }
+
+    #categorias {
+        width: 21rem;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+
+    #titulo-categorias {
+        justify-items: center;
+        width: 15.3rem;
+    }
+    
+    .linhas-categorias {
+        width: 18rem;
+        font-size: 0.75rem;
+    }
+
+    footer {
+        justify-items: center;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    main {
+        display:inline;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 4.375rem;
+        font-size: 1rem;
+        padding: 0;
+        align-content: center;
+        justify-items: center;
+    }
+
+    #lado-esquerdo-blog {
+        padding-left: 0;
+        margin: 0;
+        justify-items: center;
+    }
+    
+    #lado-direito-blog {
+        padding-left: 0;
+        margin-top: 3rem;
+        justify-items: center;
+    }
+
+    #artigo-principal {
+        width: 18rem;
+        margin: 2rem 1rem 2rem 1rem;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(./Assets/Cidade\ à\ noite.jpeg);
+    }
+
+    #texto-artigo-principal > h1 {
+        font-size: 1.5rem;
+    }
+
+    #texto-artigo-principal {
+        top: 68%;
+    }
+
+    #posts-recentes {
+        width: 18rem;
+        height: 107rem;
+        padding: 0;
+        margin: 0rem 1rem 2rem 1rem;
+    }
+    
+    #titulo-posts-recentes-h2 {
+        font-size: 0.6rem;
+        justify-content: flex-start;
+    }
+    
+    #titulo-posts-recentes-p {
+        font-size: 0.6rem;
+        justify-content: flex-end;
+    }
+    
+    #titulo-posts-recentes {
+        width: 15rem;
+        height: 1.5rem;
+        align-items: center;
+    }
+
+    #cards-posts-recentes {
+        width: 18rem;
+        height: 103.5rem;
+        margin-top: 1.5rem;
+        display: block;
+        gap: 0;
+    }
+    
+    .img-cards-recentes {
+        width: 18rem;
+        height: 11.75rem;
+        background-repeat: none;
+        background-size: cover
+    }
+    
+    .cards-recentes {
+        width: 18rem;
+        height: 24.75rem;
+        margin-top: 1.5rem;
+    }
+    
+    .texto-cards-recentes > h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .texto-cards-recentes > p {
+        font-size: 0.74rem;
+        margin: 0.5rem 0;
+    }
+    
+    .texto-cards-recentes {
+        padding: 0 1.5rem;
+        width: 16rem;
+        height: 12,875rem;
+    }
+
+    #posts-populares {
+        width: 18rem;
+    }
+    
+    #titulo-posts-populares {
+        width: 15rem;
+        height: 1rem;
+        justify-items: center;
+        margin-left: 0.5rem;
+    }
+    
+    #cards-posts-populares {
+        width: 18rem;
+        height: 6rem;
+        margin-top: 1.25rem;
+        margin-left: 0.5rem;
+    }
+    
+    .texto-cards-populares > h2 {
+        font-size: 0.75rem;
+    }
+    
+    .texto-cards-populares > p {
+        font-size: 0.5rem;
+    }
+
+    .img-cards-populares > img {
+        width: 6rem;
+        height: 5rem;
+    }
+    
+    .img-cards-populares {
+        padding: 0.3rem 1rem;
+    }
+
+    #categorias {
+        width: 15rem;
+        height: 10rem;
+        padding-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    #titulo-categorias {
+        justify-items: center;
+    }
+    
+    .linhas-categorias {
+        width: 18rem;
+        font-size: 0.75rem;
+    }
+
+    footer {
+        justify-items: center;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+   
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    main {
+        display:inline;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 4.375rem;
+        font-size: 1rem;
+        padding: 0;
+        align-content: center;
+        justify-items: center;
+    }
+
+    #lado-esquerdo-blog {
+        padding-left: 0;
+        margin: 0;
+        justify-items: center;
+    }
+    
+    #lado-direito-blog {
+        padding-left: 0;
+        margin-top: 3rem;
+        justify-items: center;
+    }
+
+    #artigo-principal {
+        width: 18rem;
+        margin: 2rem 1rem 2rem 1rem;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(./Assets/Cidade\ à\ noite.jpeg);
+    }
+
+    #texto-artigo-principal > h1 {
+        font-size: 1.5rem;
+    }
+
+    #texto-artigo-principal {
+        top: 68%;
+    }
+
+    #posts-recentes {
+        width: 18rem;
+        height: 107rem;
+        padding: 0;
+        margin: 0rem 1rem 2rem 1rem;
+    }
+    
+    #titulo-posts-recentes-h2 {
+        font-size: 0.6rem;
+        justify-content: flex-start;
+    }
+    
+    #titulo-posts-recentes-p {
+        font-size: 0.6rem;
+        justify-content: flex-end;
+    }
+    
+    #titulo-posts-recentes {
+        width: 15rem;
+        height: 1.5rem;
+        align-items: center;
+    }
+
+    #cards-posts-recentes {
+        width: 18rem;
+        height: 103.5rem;
+        margin-top: 1.5rem;
+        display: block;
+        gap: 0;
+    }
+    
+    .img-cards-recentes {
+        width: 18rem;
+        height: 11.75rem;
+        background-repeat: none;
+        background-size: cover
+    }
+    
+    .cards-recentes {
+        width: 18rem;
+        height: 24.75rem;
+        margin-top: 1.5rem;
+    }
+    
+    .texto-cards-recentes > h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .texto-cards-recentes > p {
+        font-size: 0.74rem;
+        margin: 0.5rem 0;
+    }
+    
+    .texto-cards-recentes {
+        padding: 0 1.5rem;
+        width: 16rem;
+        height: 12,875rem;
+    }
+
+    #posts-populares {
+        width: 18rem;
+    }
+    
+    #titulo-posts-populares {
+        width: 15rem;
+        height: 1rem;
+        justify-items: center;
+        margin-left: 2rem;
+    }
+    
+    #cards-posts-populares {
+        width: 18rem;
+        height: 6rem;
+        margin-top: 1.25rem;
+        margin-left: 2rem;
+    }
+    
+    .texto-cards-populares > h2 {
+        font-size: 0.75rem;
+    }
+    
+    .texto-cards-populares > p {
+        font-size: 0.5rem;
+    }
+
+    .img-cards-populares > img {
+        width: 6rem;
+        height: 5rem;
+    }
+    
+    .img-cards-populares {
+        padding: 0.3rem 1rem;
+    }
+
+    #categorias {
+        width: 15rem;
+        height: 10rem;
+        padding-top: 1rem;
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+
+    #titulo-categorias {
+        justify-items: center;
+    }
+    
+    .linhas-categorias {
+        width: 18rem;
+        font-size: 0.75rem;
+    }
+
+    footer {
+        justify-items: center;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    main {
+        display:inline;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 4.375rem;
+        font-size: 2rem;
+        padding: 0;
+        align-content: center;
+        justify-items: center;
+    }
+
+    #lado-esquerdo-blog {
+        height: 85rem;
+        padding-left: 0;
+        margin: 0;
+        justify-items: center;
+    }
+    
+    #lado-direito-blog {
+        height: 55rem;
+        padding-left: 0;
+        margin: 3rem 0;
+        justify-items: center;
+    }
+
+    #artigo-principal {
+        width: 40rem;
+        margin: 2rem 1rem 2rem 1rem;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(./Assets/Cidade\ à\ noite.jpeg);
+    }
+
+    #texto-artigo-principal > h1 {
+        font-size: 2rem;
+    }
+
+    #texto-artigo-principal {
+        top: 68%;
+    }
+
+    #posts-recentes {
+        width: 40rem;
+        height: 107rem;
+        padding: 0;
+    }
+    
+    #titulo-posts-recentes-h2 {
+        font-size: 1rem;
+        justify-content: flex-start;
+    }
+    
+    #titulo-posts-recentes-p {
+        font-size: 1rem;
+        justify-content: flex-end;
+    }
+    
+    #titulo-posts-recentes {
+        width: 37rem;
+        height: 1.5rem;
+        align-items: center;
+    }
+
+    #cards-posts-recentes {
+        width: 42rem;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 1.5rem;
+    }
+    
+    .img-cards-recentes {
+        width: 18rem;
+        height: 11.75rem;
+        background-repeat: none;
+        background-size: cover
+    }
+    
+    .cards-recentes {
+        width: 18rem;
+        height: 24.75rem;
+        margin-top: 1rem;
+    }
+    
+    .texto-cards-recentes > h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .texto-cards-recentes > p {
+        font-size: 0.74rem;
+        margin: 0.5rem 0;
+    }
+    
+    .texto-cards-recentes {
+        padding: 0 1.5rem;
+        width: 16rem;
+        height: 12,875rem;
+    }
+
+    #posts-populares {
+        width: 40rem;
+        justify-items: center;
+        margin-left: 25rem;
+    }
+
+    #titulo-posts-populares > h2 {
+        margin-top: -0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    #titulo-posts-populares {
+        width: 37rem;
+        height: 1rem;
+        justify-items:flex-start;
+    }
+    
+    #cards-posts-populares {
+        width: 40rem;
+        height: 10rem;
+        margin-top: 1.25rem;
+    }
+    
+    .texto-cards-populares > h2 {
+        font-size: 1.5rem;
+    }
+    
+    .texto-cards-populares > p {
+        font-size: 1.25rem;
+    }
+
+    .img-cards-populares > img {
+        width: 16rem;
+        height: 10rem;
+    }
+    
+    .img-cards-populares {
+        padding: 0 1rem;
+    }
+
+    #categorias {
+        width: 40rem;
+        height: 8rem;
+        padding-top: 16rem;
+        margin-left: 24rem;
+    }
+
+    #titulo-categorias > h2 {
+        font-size: 2rem;
+        margin-top: -0.75rem;
+    }
+
+    #titulo-categorias {
+        width: 37.5rem;
+        justify-items: flex-start;
+    }
+    
+    .linhas-categorias {
+        width: 40.5rem;
+        font-size: 1.25rem;
+    }
+
+    footer {
+        justify-items: center;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+   
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+    main {
+        height: 102rem;
+    }
+
+    #lado-esquerdo-blog {
+        width: 60rem;
+    }
+    
+    #lado-direito-blog {
+        width: 60rem;
+    }
+
+    #texto-artigo-principal > h1 {
+        font-size: 2.5rem;
+    }
+
+    #texto-artigo-principal > p{
+        font-size: 1.5rem;
+    }
+    
+    #artigo-principal {
+        width: 55rem;
+    }
+    
+    #texto-artigo-principal {
+        top: 66%;
+    }
+    
+    #posts-recentes {
+        width: 55rem;
+    }
+    
+    #titulo-posts-recentes > h2 {
+        font-size: 2rem;
+    }
+    
+    #titulo-posts-recentes > p {
+        font-size: 1.5rem;
+    }
+    
+    #cards-posts-recentes {
+        width: 55rem;
+        gap: 3rem;
+    }
+    
+    .img-cards-recentes {
+        width: 26rem;
+    }
+    
+    .cards-recentes {
+        width: 26rem;
+        height: 30rem;
+    }
+    
+    .texto-cards-recentes > h2 {
+        font-size: 1.5rem;
+    }
+    
+    .texto-cards-recentes > p {
+        font-size: 1rem;
+    }
+    
+    .texto-cards-recentes {
+        padding: 0 1.5rem;
+        width: 22.5rem;
+        height: 15rem;
+    }
+    
+    #posts-populares {
+        height: 24.75rem;
+        width: 30rem;
+    }
+    
+    #titulo-posts-populares > h2 {
+        margin-top: -0.7rem;
+        font-size: 2rem;
+    }
+    
+    #cards-posts-populares {
+        width: 33rem;
+    }
+
+    .texto-cards-populares > h2 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    
+    .texto-cards-populares > p {
+        font-size: 1rem;
+    }
+    
+    .img-cards-populares > img{
+        width: 10rem;
+    }
+
+    .img-cards-populares {
+        padding-top: 0.3rem;
+    }
+    
+    #titulo-categorias > h2 {
+        margin-top: -0.6rem;
+        font-size: 1.75rem;
+    }
+
+    #titulo-categorias {
+        width: 30rem;
+    }
+    
+    .linhas-categorias {
+        width: 33rem;
+        font-size: 1.75rem;
+    }
+
+    footer {
+        width: 90rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 2560px){
+
+    footer {
+        width: 120rem;
+    }
+}
